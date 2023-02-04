@@ -1,0 +1,53 @@
+//  Para crear base de datos se usa
+create database;
+ 
+ // para crear tabla
+ create table 'nombre'
+
+ // para insertar datos
+ insert into tabla (columnas) values (datos)
+
+ // para crear una llave primaria
+ primary key (id)
+
+  // para mostrar todos los valores de una tabla  
+ select * from 'nombre_tabla'
+
+ // para mostrar todas las tablas se usa
+ show tables
+
+ // para modificar una columna
+ alter table 'nombre_tabla' modify column id int auto_increment
+
+ // == * EL USO DE ID ES OBLIGATORIO * == //
+
+// para actualizar el dato de una columna
+update 'nombre_tabla' set 'columna' where id = 'el valor a modificar'
+
+// para eliminar un dato se usa
+delete from 'tabla' where id = 'el valor a eliminar'
+
+/// === REALIZAR BUSQUEDAS === ///
+
+// para limitar los datos a un numero en especifico
+select * from 'nombre_tabla' limit 'cantiddad de datos'
+
+// between es para condicionar dos valores y que se cumpla
+select * from 'nombre_tabla' where edad between 15 and 30
+
+// para saber si existe un texto o numero dentro de un dato
+select * from 'nombre_tabla' where name like '%lipe%'
+// el % % se usa para que no importe su orden busque un dato
+// si se pone asi %lipe <- debe terminar asi 
+
+// para poner de modo ascendente una columna
+select * from 'nombre_tabla' order by 'columna' asc;
+
+// para poner de modo descendente una columna
+select * from 'nombre_tabla' order by 'columna' desc;
+
+//para llamar el registro que contenga el valor maximo
+select max('columa') from 'nombre_tabla
+
+// para llamar el registro que contenga el valor minimo
+select min('columa') from 'nombre_tabla
