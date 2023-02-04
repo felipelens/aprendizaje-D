@@ -19,6 +19,9 @@ create database;
  // para modificar una columna
  alter table 'nombre_tabla' modify column id int auto_increment
 
+ // para agregar una columna
+ alter table 'nombre_tabla' add column 'nombre_columna' atrivutos
+
  // == * EL USO DE ID ES OBLIGATORIO * == //
 
 // para actualizar el dato de una columna
@@ -30,7 +33,7 @@ delete from 'tabla' where id = 'el valor a eliminar'
 /// === REALIZAR BUSQUEDAS === ///
 
 // para limitar los datos a un numero en especifico
-select * from 'nombre_tabla' limit 'cantiddad de datos'
+select * from 'nombre_tabla' limit 'cantidad de datos'
 
 // between es para condicionar dos valores y que se cumpla
 select * from 'nombre_tabla' where edad between 15 and 30
@@ -51,3 +54,28 @@ select max('columa') from 'nombre_tabla
 
 // para llamar el registro que contenga el valor minimo
 select min('columa') from 'nombre_tabla
+
+// para cambiar nombre de la tabla
+rename table 'nombre_tabla' to 'nuevo_nombre'
+
+// para crear llave foranea
+FOREIGN KEY('la columna que se le asignara la info') REFERENCES 'la tabla donde se va traer la informacion'(id)
+
+//left join consulta y right join es al right
+select u.id,u.name,p.name from user u left join producto p on u.id(id principal de donde se trae informacion) = p.created_by(llave foranea);
+    las columas que quieren que aparezcan
+                        (el u es para poner un alias)
+                            (unir las dos tablas de forma left)
+                                                    (la condicion de que se va relacionar id = id )   
+
+// inner join trae la interseccion de los grupos 
+
+// cross join es cruzar todos los datos
+
+
+// group by agrupamiento individual
+ejemplo 
+select count(p.id), u.name from producto p left join user u on u.id = p.created_by group by p.created_by; 
+
+
+//having
