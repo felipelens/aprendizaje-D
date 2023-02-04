@@ -73,9 +73,27 @@ select u.id,u.name,p.name from user u left join producto p on u.id(id principal 
 // cross join es cruzar todos los datos
 
 
-// group by agrupamiento individual
+// group by agrupamiento individual de datos repetidos (posiblemente)
 ejemplo 
 select count(p.id), u.name from producto p left join user u on u.id = p.created_by group by p.created_by; 
 
 
-//having
+//el having funciona solo para mostrar los valores que cumplan cierta condicion
+ejemplo 
+select u.name,count(p.id)  from user u left join producto p on u.id  = p.created_by
+group by (u.id) 
+having count(p.id) >= 2;
+
+year()
+month()
+day()
+year(now())
+month(now())
+day(now())
+
+
+// para eliminar tabla
+drop 'nombre_tabla';
+
+// para crear un indice
+unique index 'nombre del indice' ('nombre_tabla Asc o desc)
