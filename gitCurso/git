@@ -1,0 +1,4 @@
+git innit 'para inicializar un proyecto'
+git log --oneline 'para ver los diferentes commits'
+git reset --hard c942ceb 'para restablecer un commit'
+
