@@ -25,7 +25,7 @@ create database;
  // == * EL USO DE ID ES OBLIGATORIO * == //
 
 // para actualizar el dato de una columna
-update 'nombre_tabla' set 'columna' where id = 'el valor a modificar'
+update 'nombre_tabla' set 'columna' = 'dato a remplazar' where id = 'el valor a modificar'
 
 // para eliminar un dato se usa
 delete from 'tabla' where id = 'el valor a eliminar'
@@ -66,7 +66,11 @@ select u.id,u.name,p.name from user u left join producto p on u.id(id principal 
     las columas que quieren que aparezcan
                         (el u es para poner un alias)
                             (unir las dos tablas de forma left)
-                                                    (la condicion de que se va relacionar id = id )   
+                                                    (la condicion de que se va relacionar id = id )  
+ejemplo1:
+select (columnas user.nombres ) from user left join ciudades p on user.id_ciudad= ciudades.id;
+ejemplo2:
+select (columnas) from (tabla) inner join (tabla a relacionar) on tabla.columna(<-'llave foránea') = tabla.id 
 
 // inner join trae la interseccion de los grupos 
 

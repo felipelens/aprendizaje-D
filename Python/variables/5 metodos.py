@@ -47,6 +47,9 @@ result = nombre.endswith("e")
 #si encuentra la coincidencia
 result = nombre.replace("Felipe","lenis")
 
+#es capaz de seperar cadenas y volverla una lista
+#toca darle que dato va sperar ""
+result = nombre.split(" ")
 
 
 #! Metodos
