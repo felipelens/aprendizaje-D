@@ -1,0 +1,49 @@
+  <p>Parrafo</p>
+    <hr/> hr es para poner una linea
+
+    <pre>
+        funciona para que los enter
+        tengan funcionalidad
+    </pre>
+
+    <i>no se xd</i> <br />
+
+    <b>negrita</b> <br />
+
+    <strong>negrita relevante</strong> <br />
+
+    <em>cursiva relevante</em>
+
+    <small>tecla de texto mas peque;o</small>
+
+    <del>texto eliminado</del>
+
+    <ins>subrayado</ins>
+
+    <sub>sub indice por debajo</sub>
+
+    <sup>sub indice hacia arriba</sup>
+
+    <!-- Comentarios en HTML -->
+
+    <tr>es para hacer una fila</tr>
+
+    <th>columna encabezado</th>
+
+    <td>columna de abajo</td>
+
+    <ul>lista con puntos</ul>
+
+    <li>elementos a listar</li>
+
+    <ol>lista con orden numero</ol>
+
+    <fieldset> se usa para agrupar datos en un formulario con una linea</fieldset>
+
+    <legend> se usa para ponerle un titulo al fieldset</legend>
+    
+    <select> se usa para agrupar una seleccion </select>
+    
+    <option> se usa para poner las diferentes opciones en el select </option>
+  </body>
+</html>

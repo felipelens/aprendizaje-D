@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Informacion Personal</legend>
+        <label for="inputNombre">Ingresa tu nombre</label> <br />
+        <input id="inputNombre" type="text" placeholder="Nombre aqui" /> <br />
+        <label for="inputApellido">Ingresa tu apellido</label> <br />
+        <input
+          id="inputApellido"
+          type="text"
+          placeholder="Apellido aqui"
+        /><br />
+        <input type="submit" />
+      </fieldset>
+    </form>
+    <fieldset>
+      <legend>Select con options</legend>
+      <form action="">
+        <label for="color">colores</label>
+        <select name="color" id="color" size="5">
+          <option>rojo</option>
+          <option>amarillo</option>
+          <option>morado</option>
+          <option>verde</option>
+          <option>azul</option>
+        </select>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>textarea</legend>
+      <form action="">
+        <textarea name="opinion" id="opinion"></textarea>
+        <button type="submit">Enviar Opinion</button>
+      </form>
+    </fieldset>
+    <fieldset>
+      <form action="">
+        <input list="colors" />
+        <datalist id="colors">
+          <option>morado</option>
+          <option>azul</option>
+          <option>verde</option>
+          <option>amarillo</option>
+          <option>cafe</option>
+        </datalist>
+      </form>
+    </fieldset>
+  </body>
+</html>
