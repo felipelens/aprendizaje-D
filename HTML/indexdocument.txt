@@ -45,5 +45,34 @@
     <select> se usa para agrupar una seleccion </select>
     
     <option> se usa para poner las diferentes opciones en el select </option>
+
+   ====ATRIBUTOS====
+    readonly  de solo lectura - si envia a formulario
+
+    disabled  de solo lectura - oscurito no envia a formulario
+
+    maxlength maximo de caracteres
+
+    max y min se usa para inputs numericos
+
+    para input file se usa multiple
+
+    pattern para validar un patron en el input
+
+    placeholder para poner informacion en sombra sobre el input
+
+    required es obligatorio rellenar
+
+    step es para poner saltos entre numeros ejempl 5 en 5 
+
+    autofocus es para que selecione el input al recargar o entran en una pagina
+
+    controls se usa para poner las ayudas a videos y audios
+
+    autoplay es para poner automaticamente el video al cargar pagina y se debe poner el muted
+
+    al final del link ?autoplay=1&mute=1&loop=1
+
+
   </body>
 </html>
