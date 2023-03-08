@@ -1,0 +1,21 @@
+/* nivel mas bajo */
+h1 {
+    color: blue;
+}
+ /* nivel medio */
+.tittle-h1{
+    color: red;
+
+}
+ /* nivel medio */
+[titulo="titulo"]{
+    color: blueviolet;
+}
+/* nivel alto*/
+#tittle{
+    color: darkgray;
+}
+ /* nivel superior !important */
+h1{
+    color: forestgreen !important;
+}

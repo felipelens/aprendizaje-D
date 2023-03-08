@@ -19,3 +19,5 @@ nombre_completo = "cristian felipe lenis"
 print("felipe" in nombre_completo) # con in es para saber si esta
 print("bulla" not in nombre_completo) # con not in es para saber si no esta
 
+#type es para saber que tipo de variable es
+type()

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div p:hover {
+        color: aqua;
+      }
+      div p:nth-child(3) {
+        color: red;
+      }
+
+      input::placeholder {
+        color: red;
+      }
+      p::after {
+        content: "❤️";
+      }
+      [hola="hola prro"] {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hola</p>
+    <div  hola="hola prro">
+      <p>a
+        <p>hola</p>
+      </p>
+      <p>x</p>
+      <p>d</p>
+    </div>
+    <input type="text" placeholder="Hola prro" />
+  </body>
+</html>

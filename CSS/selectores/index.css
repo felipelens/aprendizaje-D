@@ -1,0 +1,27 @@
+/* elementos */
+h1{
+    color: rgb(226, 208, 118);
+}
+/* clase */
+.h2_subtitulo{
+    color: aquamarine;
+}
+/* ID */
+#h3-subtitulo{
+    color: blueviolet;
+}
+/* atrivutos */
+[h4="titulo"]{
+    color: brown;
+}
+/*  desendiente*/
+h5 {
+    color: rgb(126, 94, 54);
+}
+h5 span{
+    color: blue;
+}
+/* psudoclase */
+h6:hover{
+    color: rgb(50, 162, 69);
+}

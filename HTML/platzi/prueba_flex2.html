@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *::after,
+      *::before::after {
+        margin: 0;
+        padding: 0;
+      }
+      .contenedor_principal {
+        display: flex;
+        flex-direction: row;
+      }
+      .contenedor2 {
+        border-right: solid black;
+        height: 100vh;
+        width: 25vw;
+        background: red;
+      }
+      .contenedor3 {
+        height: 100vh;
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        order: -1;
+      }
+      .contenedor4 {
+        margin: 2.5em;
+        width: 90%;
+        height: 15%;
+        border: solid black;
+        border-radius: 40px;
+        padding-left: 2em;
+        background-color: blue;
+      }
+      .contenedor5 {
+        order: -1;
+        border-radius: 40px;
+        margin: 2.5em;
+        border: solid black;
+        width: 90%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+      }
+      .contenedor6 {
+        border-top-left-radius: 37px;
+        border-bottom-left-radius: 37px;
+        width: 50%;
+        height: 100%;
+        background-color: brown;
+      }
+      .contenedor7 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: solid black;
+      }
+      .contenedor8 {
+        height: 50%;
+        width: 100%;
+        border-bottom: solid black;
+        background-color: bisque;
+      }
+      .contenedor9 {
+        order: -1;
+        height: 50%;
+        width: 100%;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor_principal">
+      <div class="contenedor2"></div>
+      <div class="contenedor3">
+        <div class="contenedor4"></div>
+        <div class="contenedor5">
+          <div class="contenedor6"></div>
+          <div class="contenedor7">
+            <div class="contenedor8"></div>
+            <div class="contenedor9"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

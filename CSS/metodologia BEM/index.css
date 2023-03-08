@@ -1,0 +1,11 @@
+.noticias{
+    text-align: center;   
+}
+
+.noticias__titulo{
+    color: aqua;
+}
+.noticias__subtitulo{
+    color: rgb(224, 63, 63);
+    text-align: left;
+}
